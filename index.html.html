@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feliz Aniversario Emillie amorzinho da minha vida </title>
+
+    <link rel="stylesheet" 
+    href="StyleSheet1.css" />
+</head>
+<body>
+    <div class="capa">
+        <div class="bolo" onclick="surpresaBolo()">🎂</div>
+        <img id="fotoSurpresa" src="fotos/A11.jpg" alt="Surpresa" />
+        <p id="mensagemSurpresa" style="display:none;">Surpresaaaaa. Voce é a kuromi do meu Badtz maru 🧡🧡 </p>
+        <div class="coracoes">🧡🧡🧡</div>
+        <h1>Feliz Aniversario Emillie🧡</h1>
+        <p>Carta de Emillie</p>
+        <button onclick="abrirlivro()">Abrir o album</button>
+    </div>
+    <div class="pagina" id="pagina1">
+        <div class="carta">
+
+       
+        <h2>Feliz aniversário, meu amor 🧡</h2>
+        <p>
+            HOJE É SEU ANIVERSARIO, ENTÃO EU QUERIA FAZER ALGO BONITINHO PRA VOCÊ, ESPERO QUE VOCE GOSTE, EU TE AMO MAIS DO QUE TUDO
+        </p>
+        <h3> Alguns dos nossos momentos 🧡</h3>
+            <div class="musica">
+                <h3>Eternamente</h3>
+
+                <audio controls>
+                    <source src="musica/M1.mp3" type="audio/mpeg" />
+                    Seu navegador não suporta áudio.
+                    </audio>
+                    </div>
+        <div class="album">
+            <button class="anterior"
+    onclick="fotoAnterior()"></button>
+            <img id="fotoAlbum" src="fotos/A1.jpg" alt="Foto do casal">
+            <p id="textoFoto">Aqui eu ja sabia que iria te amar por toda a minha vida 🧡 </p>
+            <button class="proxima"
+    onclick="proximaFoto()"></button>
+
+        </div>
+        <p id="contador">1 / 10<</p>
+    </div>
+</body>
+<script src="JavaScript1.js"></script>
+</html>
